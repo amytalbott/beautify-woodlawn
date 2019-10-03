@@ -1,0 +1,130 @@
+body {
+background-color: #210d41;
+}
+
+header {
+  background-image: url("../img/BW-Header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 400px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h1 {
+  color: white;
+  font-family: 'Yellowtail', cursive;
+  font-size: 144px;
+}
+
+h1 a,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.content-container {
+  background-color: #fafaf0;
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding-bottom: 15px;
+
+}
+
+.photo-carousel {
+  margin-top: 10px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  opacity: 1;
+}
+
+hr {
+  width: 90%;
+  background-color: #210d41;
+}
+
+.about-us {
+    margin-top: 10px;
+}
+
+.about-us h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 64px;
+  color: #e24c00;
+}
+
+p {
+  padding: 5px 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.join-us,
+.adopt-a-spot {
+  font-family: 'Yellowtail', cursive;
+  font-size: 72px;
+  color: #e24c00;
+}
+
+h3 {
+  font-family: 'Patua One', cursive;
+  font-size: 40px;
+  color: #e24c00;
+}
+.get-involved-column{
+  background-color: #cec7d9;
+  margin: 10px;
+  padding: 10px;
+}
+
+.get-involved-text {
+  width: 90%;
+  margin: auto;
+}
+
+.adopt-button {
+  background-color: #ffaa1d;
+  border-radius: 10px;
+}
+
+.adopt-button:hover {
+  background-color: #e24c00;
+}
+
+.adopt-button a {
+  padding: 10px;
+  font-family: 'Patua One', cursive;
+  font-size: 20px;
+  color: #210d41;
+}
+
+.interest-form-column {
+  background-color: #cec7d9;
+  margin: 10px;
+  padding: 10px;
+}
+
+.interest-form-text {
+  width: 90%;
+  margin: auto;
+}
+
+.interest-form {
+  padding: 10px;
+}
+
+
+/* Styles for Adopt page */
+
+.adopt-intro-text{
+  width: 80%;
+  margin: auto;
+}
