@@ -23,7 +23,7 @@ h1 {
 }
 
 h1 a,
-a:hover {
+h1 a:hover {
   text-decoration: none;
   color: white;
 }
@@ -67,64 +67,61 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
-.join-us,
-.adopt-a-spot {
+.bna-link {
+  color: #210d41;
+}
+
+.bna-link:hover {
+  color: #e24c00;
+}
+
+.our-work h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 64px;
+  color: #e24c00;
+}
+
+.interest-form-column {
+  background-color: #cec7d9;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.join-us {
   font-family: 'Yellowtail', cursive;
   font-size: 72px;
   color: #e24c00;
 }
 
-h3 {
-  font-family: 'Patua One', cursive;
-  font-size: 40px;
-  color: #e24c00;
-}
-.get-involved-column{
-  background-color: #cec7d9;
-  margin: 10px;
-  padding: 10px;
-}
-
-.get-involved-text {
-  width: 90%;
-  margin: auto;
-}
-
-.adopt-button {
-  background-color: #ffaa1d;
-  border-radius: 10px;
-}
-
-.adopt-button:hover {
-  background-color: #e24c00;
-}
-
-.adopt-button a {
-  padding: 10px;
-  font-family: 'Patua One', cursive;
-  font-size: 20px;
-  color: #210d41;
-}
-
-.interest-form-column {
-  background-color: #cec7d9;
-  margin: 10px;
-  padding: 10px;
-}
-
 .interest-form-text {
-  width: 90%;
-  margin: auto;
+  /* width: 90%;
+  margin: auto; */
 }
 
 .interest-form {
   padding: 10px;
 }
 
+/* Media queries - mobile sizing */
+@media screen and (max-width: 500px) {
+  header {
+    background-image: url("../img/BW-Header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-/* Styles for Adopt page */
+  }
 
-.adopt-intro-text{
-  width: 80%;
-  margin: auto;
+  h1 {
+    color: white;
+    font-family: 'Yellowtail', cursive;
+    font-size: 48px;
+  }
 }
